@@ -1,0 +1,20 @@
+.Redes-sociales {
+    Position: fixed;
+    right: 0;
+    top: 35%;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+}

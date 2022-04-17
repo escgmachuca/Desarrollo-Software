@@ -1,0 +1,74 @@
+*+ {
+    padding: 0;
+    margin: 10;
+}
+
+body {
+    background: lightgrey;
+}
+
+body h1 {
+    line-height: 1.5rem;
+    /* REM se usa para la medida del objeto padre y se la pasa al hijo. recomendado para movil*/
+}
+
+.titulo {
+    color: black;
+    margin-top: 20px;
+}
+
+#formulario {
+    margin: 8px auto;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+header h1 {
+    float: left;
+    margin: 11px;
+}
+
+nav ul {
+    float: right;
+}
+
+body h1 {
+    text-align: center;
+}
+
+img {
+    list-style-image: center;
+}
+
+footer {
+    padding: 200px;
+}
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li {
+    margin: 10px;
+}
+
+.redes i {
+    font-size: 40px;
+}
+
+.redes i:hover {
+    color: red;
+    text-decoration: aqua;
+}
